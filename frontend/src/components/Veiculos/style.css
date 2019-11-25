@@ -1,0 +1,34 @@
+.veiculo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    background-color: white;
+    margin: 20px 0;
+    padding: 15px;
+}
+
+.veiculo p{
+    color: green;
+    font-weight: 500;
+}
+
+.veiculo span{
+    color: rgb(121, 121, 121);
+    font-weight: 500;
+}
+
+.fa-tag{
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+    color: rgb(40, 47, 51);
+}
+
+.fa-tag:hover{
+    color:green;
+}
+
+button:hover{
+    background-color: rgb(78, 99, 110);
+}
